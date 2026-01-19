@@ -226,7 +226,7 @@ body {
     position: absolute;
     width: 1000px;
     height: 49px;
-    left: 811px;
+    left: 780px;
     top: 705px;
     font-family: 'Inter';
     font-weight: 400;
@@ -311,4 +311,5 @@ body {
     font-size: 30px;
     line-height: 1.21;
     color: #FFFFFF;
+
 }
