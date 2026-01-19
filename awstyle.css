@@ -253,4 +253,13 @@ body {
     background-image: url('assets/images/project-arrow.png'); /* imageRef: 2c1cc671ba734efa3c18d8e20c99c9726fd9978b */
     background-size: cover;
     transform: rotate(90deg);
+
+}
+
+.text a,
+.text a:visited,
+.text a:hover,
+.text a:active {
+    color: inherit;
+    text-decoration: none;
 }
