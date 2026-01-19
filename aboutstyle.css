@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+#AW {
+    position: relative;
+    width: 1522px;
+    height: 900px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+#Rectangle_10 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+}
+
+#Project_Bg_1 {
+    position: absolute;
+    width: 1522px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background-image: url('assets/images/Project\ Bg-+.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.60;
+}
+
+#Rectangle_1 {
+    position: absolute;
+    width: 1166px;
+    height: 60px;
+    left: 177px;
+    top: 85px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+#Project_Logo-1 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 185px;
+    top: 88px;
+    background-image: url('assets/images/project-logo.png');
+    background-size: cover;
+}
+
+#Audio_Watermark {
+    position: absolute;
+    width: 282px;
+    height: 24px;
+    left: 255px;
+    top: 100px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.21;
+    color: #FFFFFF;
+}
+
+#Embed_Watermark_Nav {
+    position: absolute;
+    width: 301px;
+    height: 24px;
+    left: 569px;
+    top: 100px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.21;
+    color: #FFFFFF;
+}
+
+#Extract_Watermark_Nav {
+    position: absolute;
+    width: 321px;
+    height: 24px;
+    left: 897px;
+    top: 100px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.21;
+    color: #FFFFFF;
+}
+
+#About {
+    position: absolute;
+    width: 117px;
+    height: 24px;
+    left: 1227px;
+    top: 100px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.21;
+    color: #FFFFFF;
+}
+
+#About_title {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 675px;
+    top: 187px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.21;
+    color: #FFFFFF;
+}
+
+.glass-card {
+    position: absolute;
+    width: 1000px;
+    height: 420px;
+    top: 270px;
+    left: 210px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 3rem; 
+    border-radius: 30px;
+    max-width: 64rem;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+#About_1 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 290px;
+    top: 350px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Pic_1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 343px;
+    top: 590px;
+    background-image: url('assets/images/Web\ 1.png');
+    background-size: cover;
+}
+
+#Pic_2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 583px;
+    top: 590px;
+    background-image: url('assets/images/Web\ 2.png');
+    background-size: cover;
+}
+
+#Pic_3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 823px;
+    top: 590px;
+    background-image: url('assets/images/Web\ 3.png');
+    background-size: cover;
+}
+
+#Pic_4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1063px;
+    top: 590px;
+    background-image: url('assets/images/Web\ 4.png');
+    background-size: cover;
+}
+
+#Mem_Name1 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 328px;
+    top: 705px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Name2 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 575px;
+    top: 705px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Name3 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 811px;
+    top: 705px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Name4 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 1057px;
+    top: 705px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Roll1 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 335px;
+    top: 730px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Roll2 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 570px;
+    top: 730px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Roll3 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 811px;
+    top: 730px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_Roll4 {
+    position: absolute;
+    width: 1000px;
+    height: 49px;
+    left: 1053px;
+    top: 730px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.21;
+    color: #ffffff;
+}
+
+#Mem_head {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 675px;
+    top: 520px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.21;
+    color: #FFFFFF;
+}
