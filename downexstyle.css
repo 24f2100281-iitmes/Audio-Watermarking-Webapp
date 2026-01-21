@@ -188,3 +188,12 @@ body {
     background-size: cover;
     transform: rotate(180deg);
 }
+
+
+.text a,
+.text a:visited,
+.text a:hover,
+.text a:active {
+    color: inherit;
+    text-decoration: none;
+}
