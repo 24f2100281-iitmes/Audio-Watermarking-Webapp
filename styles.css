@@ -240,6 +240,10 @@ body {
     overflow: visible;
 }
 
+.cta-button:hover {
+    background: linear-gradient(90deg, rgb(28, 100, 121) 0%, rgb(21, 120, 107) 100%);
+}
+
 .cta-text {
     position: absolute;
     left: 21px;
@@ -286,3 +290,4 @@ body {
     display: block;
     transform: rotate(90deg);
 }
+
