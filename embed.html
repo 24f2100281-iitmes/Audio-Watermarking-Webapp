@@ -221,13 +221,13 @@
 
   <div class="upload-box" id="origBox">
     Upload Original Audio
-    <span>(Main WAV file)</span>
+    <span>(Main 'WAV' file)</span>
     <div class="file-name" id="origName"></div>
   </div>
 
   <div class="upload-box" id="wmBox">
     Upload Watermark Audio
-    <span>(Short WAV file)</span>
+    <span>(Short 'WAV' file)</span>
     <div class="file-name" id="wmName"></div>
   </div>
 
@@ -275,11 +275,11 @@ wmInput.onchange = () => {
 // Encode
 document.getElementById("encodeBtn").onclick = async () => {
   if (!originalFile || !watermarkFile) {
-    status.innerText = "❌ Please upload both audio files";
+    status.innerText = "🚫 Please upload both audio files";
     return;
   }
 
-  status.innerText = "⏳ Encoding audio...";
+  status.innerText = "⏳ Embeding audio...";
 
   const fd = new FormData();
   fd.append("original", originalFile);
@@ -292,12 +292,12 @@ document.getElementById("encodeBtn").onclick = async () => {
     });
 
     if (!res.ok) {
-      status.innerText = "❌ Encoding failed";
+      status.innerText = "🚫 Embeding failed";
       return;
     }
 
     const data = await res.json();
-    status.innerText = "⬇ Downloading...";
+    status.innerText = "Downloaded ✅";
 
     // AUTO DOWNLOAD
     window.location.href = API + data.download_url;
@@ -311,6 +311,7 @@ document.getElementById("encodeBtn").onclick = async () => {
 
 </body>
 </html>
+
 
 
 
