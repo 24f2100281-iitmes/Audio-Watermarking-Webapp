@@ -241,7 +241,7 @@ body {
 }
 
 .cta-button:hover {
-    background: linear-gradient(90deg, rgb(28, 100, 121) 0%, rgb(21, 120, 107) 100%);
+    background: linear-gradient(90deg, rgb(73, 203, 242) 0%, rgb(60, 242, 218) 100%);
 }
 
 .cta-text {
@@ -290,4 +290,5 @@ body {
     display: block;
     transform: rotate(90deg);
 }
+
 
