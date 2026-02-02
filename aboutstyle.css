@@ -161,47 +161,19 @@ body {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 343px;
+    left: 700px;
     top: 590px;
-    background-image: url('assets/images/Web\ 1.png');
+    background-image: url('Web\ 1.png');
     background-size: cover;
 }
 
-#Pic_2 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 583px;
-    top: 590px;
-    background-image: url('assets/images/Web\ 2.png');
-    background-size: cover;
-}
 
-#Pic_3 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 823px;
-    top: 590px;
-    background-image: url('assets/images/Web\ 3.png');
-    background-size: cover;
-}
-
-#Pic_4 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 1063px;
-    top: 590px;
-    background-image: url('assets/images/Web\ 4.png');
-    background-size: cover;
-}
 
 #Mem_Name1 {
     position: absolute;
     width: 1000px;
     height: 49px;
-    left: 328px;
+    left: 685px;
     top: 705px;
     font-family: 'Inter';
     font-weight: 400;
@@ -210,89 +182,13 @@ body {
     color: #ffffff;
 }
 
-#Mem_Name2 {
-    position: absolute;
-    width: 1000px;
-    height: 49px;
-    left: 575px;
-    top: 705px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.21;
-    color: #ffffff;
-}
 
-#Mem_Name3 {
-    position: absolute;
-    width: 1000px;
-    height: 49px;
-    left: 780px;
-    top: 705px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.21;
-    color: #ffffff;
-}
-
-#Mem_Name4 {
-    position: absolute;
-    width: 1000px;
-    height: 49px;
-    left: 1057px;
-    top: 705px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.21;
-    color: #ffffff;
-}
 
 #Mem_Roll1 {
     position: absolute;
     width: 1000px;
     height: 49px;
-    left: 335px;
-    top: 730px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.21;
-    color: #ffffff;
-}
-
-#Mem_Roll2 {
-    position: absolute;
-    width: 1000px;
-    height: 49px;
-    left: 570px;
-    top: 730px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.21;
-    color: #ffffff;
-}
-
-#Mem_Roll3 {
-    position: absolute;
-    width: 1000px;
-    height: 49px;
-    left: 811px;
-    top: 730px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.21;
-    color: #ffffff;
-}
-
-#Mem_Roll4 {
-    position: absolute;
-    width: 1000px;
-    height: 49px;
-    left: 1053px;
+    left: 688px;
     top: 730px;
     font-family: 'Inter';
     font-weight: 400;
@@ -305,7 +201,7 @@ body {
     position: absolute;
     width: 200px;
     height: 44px;
-    left: 675px;
+    left: 685px;
     top: 520px;
     font-family: 'Inter';
     font-weight: 500;
@@ -322,5 +218,6 @@ body {
     color: inherit;
     text-decoration: none;
 }
+
 
 
